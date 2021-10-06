@@ -1648,25 +1648,6 @@ div.CopyRight {
 
 /*========================================================*/
 
-
-/* body {
-    overflow: hidden;
-}
-
-div.Load {
-    width: 100%;
-}
-
-div.Load img {
-    width: 20%;
-    position: absolute;
-    left: 40%;
-    top: 35%;
-    display: block;
-    overflow: hidden;
-    z-index: 999999;
-} */
-
 div#top {
     position: fixed;
     bottom: 2%;

@@ -80,15 +80,6 @@ div.MenuActive__Inner h3>a {
     text-decoration: none;
 }
 
-
-/* .Bar__Inner li a:hover {
-    background-color: black;
-    color: white;
-    font-style: italic;
-    border-radius: 20px 20px;
-    border-spacing: 4px
-} */
-
 .Bar__Inner-Logo {
     width: 45%;
     z-index: 100;
@@ -180,16 +171,6 @@ ul.MenuActive__ListItems a {
     box-shadow: 0 2px black;
 }
 
-
-/* li.Item>a {
-    box-shadow: 0 3px black;
-} */
-
-
-/* .MenuActive li a:hover {
-    box-shadow: 0 3px black;
-} */
-
 div.IMG__LOADED {
     /* background-color: aquamarine; */
     position: absolute;
@@ -202,17 +183,6 @@ div.IMG__LOADED {
     text-align: center;
     padding-left: 28%;
 }
-
-
-/* div.Split {
-    position: absolute;
-    height: 100%;
-    width: 56%;
-    border-radius: 20px;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-width: 3px;
-} */
 
 div.Split {
     /* background-color: red; */
@@ -300,28 +270,6 @@ div.Link a:hover {
 
 
 /*=== PHẦN DI ĐỘNG ===*/
-
-
-/* .Sub:hover li:first-child a:first-child {
-    transition: 0.3s;
-    box-shadow: 0 3px black;
-} */
-
-
-/* .Phone {
-    display: none;
-} */
-
-
-/* .Item:hover .Phone {
-    background-color: white;
-    display: block;
-} */
-
-
-/* .Item:first-child .Phone {
-    display: block;
-} */
 
 .Show-IMG {
     display: block;
@@ -430,11 +378,6 @@ div.USER1 a:hover {
     transition-duration: 0.35s;
 }
 
-
-/* div.USER1 span:last-child {
-    position: relative;
-} */
-
 div.USER1 span img {
     position: absolute;
     right: 10%;
@@ -442,40 +385,11 @@ div.USER1 span img {
     width: 13%;
 }
 
-
-/* div.Language-Icon {
-    width: 50%;
-    height: 100%;
-    position: relative;
-    background-color: yellow;
-}
-
-div.Language-Icon img {
-    position: absolute;
-    width: 15%;
-    right: 0;
-    bottom: 5%;
-} */
-
 div.Language-Icon h6 {
     position: absolute;
     right: 25%;
     bottom: 5%;
 }
-
-
-/* div.Language-Icon {
-    background-color: #044262;
-    vertical-align: middle;
-    position: absolute;
-    display: flex;
-    left: 0%;
-    bottom: 5%;
-}
-
-div.Language-Icon img {
-    width: 40%;
-} */
 
 
 /*=== PHẦN ICON:END ===*/
@@ -991,30 +905,6 @@ div.Flex-Wrapper a:hover {
     color: black;
     transition: 0.4s;
 }
-
-
-/*=====Hover xịn======*/
-
-
-/* div.Flex-Wrapper a::before {
-    content: '';
-    color: black;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 100%;
-    background-color: rgba(255, 255, 255, 0.582);
-    transition: 0.3s;
-    transition-delay: 0.3s;
-}
-
-div.Flex-Wrapper a:hover::before {
-    right: 0;
-} */
-
-
-/*=====Hover xịn:END======*/
 
 div.Buy-Strip {
     /* background-color: blue; */

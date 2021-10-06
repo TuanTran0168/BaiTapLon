@@ -607,7 +607,7 @@ div.Sub-Item1 {
     padding: 20px;
     text-align: center;
     overflow: hidden;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 div.Sub-Item1>img {
@@ -616,7 +616,7 @@ div.Sub-Item1>img {
 }
 
 div.Sub-Item1>img:hover {
-    transform: scale(1.15);
+    transform: scale(1.08);
     transition-duration: 0.8s;
 }
 
