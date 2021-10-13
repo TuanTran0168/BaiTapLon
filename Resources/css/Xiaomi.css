@@ -535,7 +535,13 @@ div.Show-Content2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 690px;
+    height: 770px;
+}
+
+div.Sub-Content>p {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
 }
 
 div.Sub-Content {
@@ -547,28 +553,30 @@ div.Sub-Content {
 div.Sub-Content h3 {
     text-align: center;
     color: white;
+    font-size: 40px;
+    margin-top: -10%;
     padding-bottom: 1%;
 }
 
 div.Sub-Content h2 {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 1%;
     animation: HOT 2s infinite;
 }
 
 @keyframes HOT {
     from {
-        color: red;
+        color: rgb(255, 251, 0);
     }
     to {
-        color: blue;
+        color: rgb(0, 204, 255);
     }
 }
 
 div.Sub-Content>img {
     position: relative;
     width: 79%;
-    animation: aniName 7s infinite;
+    animation: aniName 5s infinite;
 }
 
 @keyframes aniName {
@@ -577,11 +585,11 @@ div.Sub-Content>img {
         top: 0%
     }
     25% {
-        left: 20%;
+        left: 15%;
         top: 0%;
     }
     50% {
-        left: 20%;
+        left: 15%;
         top: 10%;
     }
     75% {
