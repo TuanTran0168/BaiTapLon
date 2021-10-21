@@ -243,3 +243,10 @@ $(document).ready(function() {
 //         $(li.Sub > a).addClass("Hover-li-In-Bar")
 //     })
 // })
+
+// $(window).resize(function() {
+//     var width = $(window).width();
+
+//     if (width <= 600)
+//         $("body").removeClass("wow");
+// });
