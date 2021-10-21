@@ -1669,3 +1669,330 @@ div#top i {
 #top:hover {
     background-color: rgb(105, 105, 105);
 }
+
+
+/*===================================RESPONSIVE==============================================*/
+
+@media only screen and (max-width:500px) {
+    div.Bar__Inner-Logo {
+        width: 100%
+    }
+    div.Bar__Inner-List1-Left {
+        display: none;
+    }
+    div.Bar__Inner-List1-Right {
+        display: none;
+    }
+    div.Bar__Inner-List1-Icon {
+        width: 100%;
+        margin-left: 15%;
+    }
+    div.Bar__Inner-List1-Icon div.Menu-Icon {
+        width: 200px;
+        height: auto;
+        right: 25%;
+    }
+    /*===================INTRO=========================*/
+    div.Intro {
+        margin-top: -5%;
+    }
+    div.Intro img {
+        border-radius: 0;
+        height: 350px;
+    }
+    div.carousel-caption h3 {
+        font-size: 20px;
+    }
+    div.carousel-caption p {
+        font-size: 14px;
+    }
+    h1.TIT {
+        font-size: 30px;
+    }
+    /*===================SHOWCASE=========================*/
+    div.List__Showcase section ul {
+        padding: 0;
+    }
+    div.List__Showcase section ul li {
+        width: 25%;
+    }
+    div.List__Showcase section a {
+        font-size: 18px;
+        width: 100%;
+    }
+    div.Showcase {
+        height: auto;
+    }
+    div.Showcase__Inner {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    div.Showcase-Item {
+        height: 190px;
+    }
+    div.Showcase__Inner a:hover h5 {
+        display: none;
+    }
+    div.Showcase-Item img {
+        width: 70%;
+    }
+    div.Showcase__Inner>div.Showcase-Left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    div.Showcase-Left-Top {
+        width: 48%;
+        margin: 0;
+        padding: 0;
+    }
+    div.Showcase-Left-Bottom {
+        width: 48%;
+        margin: 0;
+        padding: 0;
+    }
+    /*========*/
+    div.Showcase__Inner>div.Showcase-Right {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    div.Showcase-Right-Top {
+        width: 48%;
+        margin: 0;
+        padding: 0;
+    }
+    div.Showcase-Right-Bottom {
+        width: 48%;
+        margin: 0;
+        padding: 0;
+    }
+    /*==========*/
+    div.Showcase-Middle {
+        width: 100%;
+    }
+    div.Showcase-Middle-Middle {
+        width: 100%;
+        margin: 0;
+    }
+    div.Showcase-Item-Middle {
+        height: 350px !important;
+    }
+    /*=====*/
+    div.Showcase-Infor h4 {
+        font-size: 18px;
+    }
+    /*=====*/
+    div.Showcase__Inner>div.Showcase-Left1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    div.Showcase__Inner>div.Showcase-Left1 img {
+        width: 100%;
+    }
+    div.Showcase-Left1 div.Showcase-Left-Top {
+        margin: 0 !important;
+    }
+    div.Showcase__Inner>div.Showcase-Right1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    div.Showcase__Inner>div.Showcase-Right1 img {
+        width: 100%;
+    }
+    div.Showcase-Middle1 {
+        width: 100%;
+    }
+    div.Showcase-Middle1 div.Showcase-Middle-Middle img {
+        width: 100%;
+    }
+    /*==================BUYTRIP==========================*/
+    div.Flex-Wrapper {
+        height: auto;
+    }
+    div.Buy-Strip {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+    div.Buy-Strip h2 {
+        font-size: 20px;
+    }
+    div.Buy-Strip p {
+        font-size: 15px;
+    }
+    div.Buy-Strip>div>a {
+        font-size: 15px;
+    }
+    /*==================TECH DEMONSTRATION FIRST==========================*/
+    div.Tech-Demonstration-First {
+        height: 530px;
+    }
+    div.Tech-Demonstration-First img {
+        width: 200%;
+        margin-left: -16%;
+    }
+    div.Tech-Demonstration-First>section>ul>li {
+        min-width: 45%;
+    }
+    div.Tech-Demonstration-First>section>ul>li>a {
+        font-size: 12px;
+        width: 100%;
+        padding: 3% 5% 3% 5%;
+    }
+    div.Tab-Content h2 {
+        font-size: 20px;
+    }
+    div.Tech-Infor_First {
+        top: 65%;
+        left: 2.5%;
+        width: 95%;
+    }
+    div.Tech-Infor_First-Text h2 {
+        font-size: 18px;
+    }
+    div.Tech-Infor_First-Text p {
+        font-size: 12px;
+    }
+    /*==================TECH DEMONSTRATION SECOND==========================*/
+    div.Tech-Demonstration-Second {
+        margin-top: 5%;
+        width: 100%;
+        height: 280px;
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    }
+    div.Tech-Demonstration-Second>div:first-child {
+        height: 20px !important;
+        margin-top: -10%;
+    }
+    div.Tech-Infor_Second {
+        width: 40%;
+        height: 40%;
+        left: 10%;
+    }
+    div.Tech-Infor_Second h3 {
+        font-size: 12px;
+    }
+    div.Tech-Infor_Second h3>span {
+        font-size: 20px !important;
+    }
+    div.Tech-Infor_Second p {
+        font-size: 6px;
+    }
+    div.Tech-Demonstration-Second a {
+        font-size: 8px;
+    }
+    /*==================TECH DEMONSTRATION THIRD==========================*/
+    div.Tech-Demonstration-Third h2 {
+        font-size: 30px;
+    }
+    div.Tech-Demonstration-Third h3 {
+        font-size: 15px;
+    }
+    div.Tech-Demonstration-Third p {
+        font-size: 8px;
+        height: 50px;
+        overflow: auto;
+    }
+    div.Tech-Infor_Third {
+        height: 150px;
+        background-attachment: scroll;
+    }
+    div.Tech-Infor_Third1 {
+        height: 150px;
+        background-attachment: scroll;
+    }
+    /*==================TECH DEMONSTRATION THIRD==========================*/
+    ul.ListNews {
+        height: auto;
+    }
+    ul.ListNews li {
+        height: 120px;
+        padding-bottom: 5%;
+    }
+    div.Title-Layout h2 {
+        font-size: 22px;
+        padding: 2% 5%;
+    }
+    div.ImageNews {
+        width: 67%;
+    }
+    div.ImageNews img {
+        margin-top: 5%;
+        border-radius: 10px;
+    }
+    div.News-Text {
+        padding-right: 0;
+        height: 100%;
+    }
+    div.News-Text h3 {
+        font-size: 12px;
+    }
+    div.News-Text h6 {
+        font-size: 8px;
+    }
+    div.News-Text p {
+        font-size: 10px;
+        height: 50px;
+        overflow: hidden;
+    }
+    /*==================FOOTER==========================*/
+    footer {
+        width: 100%;
+        height: auto;
+        background-size: 100% 100%;
+    }
+    div.Footer-Top {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    div.Footer-Top-Left {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    div.Hotline {
+        width: 100%;
+        margin-left: -17%;
+        text-align: center;
+    }
+    div.Hotline h3 {
+        font-size: 25px;
+        margin-bottom: 5%;
+    }
+    div.Social {
+        width: 70%;
+        margin-left: -15%;
+        margin-top: 5%;
+    }
+    div.Footer-Top-Right {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    div.Footer-Content div.Content-Left {
+        display: none;
+    }
+    div.Content-Right {
+        text-align: center;
+        margin-left: 14%;
+    }
+    div.Content-Right h3 {
+        font-size: 18px;
+    }
+    div.List-Shop__Content {
+        display: none;
+    }
+    ul.Blog-Content h6 {
+        font-size: 16px;
+    }
+    ul.Blog-Content li>ul>li {
+        font-size: 10px;
+    }
+}
