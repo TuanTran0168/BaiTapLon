@@ -1192,9 +1192,128 @@ div#top i {
 /*===================================RESPONSIVE==============================================*/
 
 @media only screen and (max-width:600px) {
+    /*===================================SHOW CONTENT====================================*/
     div.Show-Content img {
-        width: 100%;
+        width: 90%;
     }
+    div.Show-Content-Text p {
+        font-size: 14px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        padding: 3%;
+    }
+    div.Show-Content-Text h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+    div.Show-Content1 div.Show-Content-Text h3 {
+        font-size: 20px;
+        padding-top: 5%;
+    }
+    div.Show-Content-Text h2 {
+        font-size: 35px;
+    }
+    div.Show-Content-Link a {
+        font-size: 15px;
+        margin-top: 3%;
+    }
+    div.Show-Content-Link a:first-child {
+        font-size: 14px;
+        padding: 2% 5%;
+    }
+    div.Show-Content-Link {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+    div.Show-Content-Text {
+        overflow: hidden;
+    }
+    div.Show-Content1>div.Show-Content-Text img {
+        width: 205%;
+        margin-left: -2%;
+    }
+    div.Show-Content1>div.Show-Content-Text h2 {
+        font-size: 30px;
+    }
+    div.Show-Content2 img {
+        width: 170%;
+        margin-left: -70%;
+        border-radius: 0;
+        margin-top: 65%;
+    }
+    div.Show-Content-Text2 {
+        text-align: center;
+        width: 100%;
+        color: black;
+        top: 5%;
+        left: 0;
+    }
+    div.Show-Content-Text2 h3 {
+        font-size: 35px;
+    }
+    div.Show-Content-Text2 h3:first-child {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    div.Show-Content-Text2>a {
+        padding: 2% 3%;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #4a4aff;
+        color: white;
+    }
+    /*===================================COMPARE TABLE====================================*/
+    div.Table-Compare {
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    div.Item-Compare {
+        width: 45%;
+    }
+    div.Item-Compare p {
+        font-size: 14px;
+    }
+    div.Image-Item {
+        margin: auto;
+    }
+    div.Image-Item img {
+        transform: scale(0.8);
+    }
+    div.Name-Item h3 {
+        font-size: 20px;
+    }
+    div.Magsafe-Item>h5 {
+        margin-top: 15%;
+    }
+    /*===================================ADVERTISEMENT APPLE====================================*/
+    div.Advertisement-Apple {
+        background-image: url("Background-Images/Responsive-Mobile/CSS-Background-Image-AppleStoreWhy-Resonsive_Mobile.png");
+    }
+    div.Advertisement-Apple__Inner {
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        text-align: center;
+        top: 30%;
+        left: 10%;
+    }
+    div.Advertisement-Apple__Inner h3 {
+        font-size: 35px;
+    }
+    div.Advertisement-Apple__Inner p {
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
+    div.Advertisement-Apple__Inner a {
+        font-size: 20px;
+    }
+    /*===================================BAR HEADER====================================*/
     div.Bar__Inner-Logo {
         width: 100%
     }

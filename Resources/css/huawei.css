@@ -1254,6 +1254,118 @@ div#top i {
 /*===================================RESPONSIVE==============================================*/
 
 @media only screen and (max-width:600px) {
+    /*=============================CONTAINER================================*/
+    div.Container-Content {
+        width: 100%;
+    }
+    div.Content-Text {
+        width: 100%;
+        margin: auto;
+        padding: 5% 30% 155% 30%;
+        text-align: center;
+    }
+    div.Content-Text a {
+        position: absolute;
+        bottom: 5%;
+        left: 30%;
+        right: 30%;
+    }
+    div.Content-Text h6 {
+        display: none;
+    }
+    div.Content-Text p {
+        margin-bottom: 10%;
+    }
+    div.Container__Inner {
+        background-image: none;
+    }
+    div.Content-Image {
+        width: 80%;
+        height: 50%;
+        top: 21%;
+        left: 10%;
+    }
+    h1.TIT {
+        font-size: 30px;
+    }
+    /*==================================PRODUCT WRAP===================================*/
+    div.Product-Wrap {
+        height: auto;
+    }
+    div.Product-Wrap__Inner {
+        height: 100%;
+    }
+    div.Product-Block {
+        width: 90%;
+        margin-top: 20%;
+        /* height: auto; */
+    }
+    div .Product-Image.One {
+        padding: 10%;
+    }
+    div .Product-Image.Double {
+        padding: 10%;
+    }
+    div.Product-Image img {
+        width: 80%;
+        margin: 0;
+    }
+    div.Product-Image.Double img {
+        margin: 0;
+    }
+    div.Product-Image.Double img:first-child {
+        width: 50%;
+    }
+    div.Product-Image.Double img:last-child {
+        width: 32%;
+    }
+    div.Product-Infor {
+        text-align: center;
+    }
+    div.Product-Link {
+        justify-content: center;
+    }
+    div.Product-Link a {
+        margin: 0% 5%;
+        padding: 2% 5%;
+    }
+    div.Product-Infor p {
+        display: none;
+    }
+    /*==================================PRODUCT WRAP SECOND===================================*/
+    div.Product-Wrap-Second__Inner {
+        margin-top: 15%;
+        justify-content: space-around;
+    }
+    div.Product-Block-Second {
+        width: 45%;
+    }
+    div .Product-Image-Second.One {
+        padding: 10%;
+    }
+    div .Product-Image-Second.One img {
+        width: 100%;
+        margin: 0;
+    }
+    div .Product-Infor.Product-Infor-Second>a {
+        font-size: 20px;
+    }
+    div .Product-Infor.Product-Infor-Second>div.Product-Link {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    div .Product-Infor.Product-Infor-Second>div.Product-Link>a {
+        font-size: 14px;
+        background-color: white;
+        color: black;
+        text-decoration: underline rgb(82, 18, 18) solid;
+    }
+    div.Flex-Wrapper {
+        margin-top: 0;
+    }
+    /*=============================HEADER BAR================================*/
     div.Bar__Inner-Logo {
         width: 100%
     }
