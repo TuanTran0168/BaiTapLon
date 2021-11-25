@@ -1294,6 +1294,11 @@ div#top i {
     div.Item-Compare>div.Image-Item>img:hover {
         transform: scale(0.85);
     }
+    div.Compare-Items>h2 {
+        font-size: 30px;
+        padding: 5% 15%;
+        text-align: center;
+    }
     /*===================================ADVERTISEMENT APPLE====================================*/
     div.Advertisement-Apple {
         background-image: url("Background-Images/Responsive-Mobile/CSS-Background-Image-AppleStoreWhy-Resonsive_Mobile.png");
