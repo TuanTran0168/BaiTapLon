@@ -22,21 +22,45 @@ $(document).ready(function() {
 // });
 
 $(document).ready(function() {
-    $(".Bar__Inner  a").click(function() {
+    // $(".Bar__Inner  a").click(function() {
+    //     event.preventDefault()
+    // })
+
+    $(".Bar__Inner-List1-Left  a").click(function() {
         event.preventDefault()
     })
 
-    $("div.Section-Compare").click(function() {
+    $(".Bar__Inner-List1-Right  a").click(function() {
         event.preventDefault()
     })
 
-    $("div.Flex-Wrapper a").click(function() {
+    $(".Bar__Inner-List1-Icon  a").click(function() {
         event.preventDefault()
     })
 
-    $("div.Footer__Inner a").click(function() {
+    $(".Footer-Top-Right  a").click(function() {
         event.preventDefault()
     })
+
+    $(".Footer-Top-Right  a").click(function() {
+        event.preventDefault()
+    })
+
+    $(".Footer-Content  a").click(function() {
+        event.preventDefault()
+    })
+
+    //Cái này sau gắn link vào là xóa đi
+    // $("div#Tab3-1 a").click(function() {
+    //     event.preventDefault()
+    // })
+
+    //=======================================
+
+    // $("div.Footer__Inner a").click(function() {
+    //     event.preventDefault()
+    // })
+
 })
 
 
@@ -174,3 +198,64 @@ $(document).ready(function() {
         $("li.Item7 > a").removeClass("Bottom-Shadow")
     })
 })
+
+$(document).ready(function() {
+    $("div.Tab-Content > div:not(:first-child)").hide()
+
+    $("ul.Tab a").click(function() {
+        $("ul.Tab a").removeClass("Click-Active")
+        $(this).addClass("Click-Active")
+
+        var user_click = $(this).attr("href")
+        $("div.Tab-Content > div").hide()
+        $(user_click).show()
+
+        $("ul.Tab li").removeClass("Click-Active")
+    })
+})
+
+$(document).ready(function() {
+    $("div.Tab-Content1 > div:not(:first-child)").hide()
+
+    $("ul.Tab1-1 a").click(function() {
+        $("ul.Tab1-1 a").removeClass("Click-Active1")
+        $(this).addClass("Click-Active1")
+
+        var user_click = $(this).attr("href")
+        $("div.Tab-Content1 > div").hide()
+
+        $(user_click).show()
+        $("ul.Tab1-1 li").removeClass("Click-Active1")
+
+    })
+})
+
+function Register(obj) {
+    // alert("Đăng ký thành công!");
+    var name = document.getElementById("ResName").value;
+    if (name !== "")
+        alert("Đăng ký thành công!" + " Chào mừng " + name + " đã đến với chúng tôi");
+    else
+        alert("Bạn hãy nhập mail");
+}
+
+// $(document).ready(function() {
+//     $("li.Sub > a").hover(function() {
+//         $("li.Sub > a").removeClass("Hover-li-In-Bar")
+//         $(this).addClass("Hover-li-In-Bar")
+//     })
+// })
+
+// $(document).ready(function() {
+//     $("ul.MenuActive__ListItems").hover(function() {
+//         $("li.Sub>a").removeClass("Hover-li-In-Bar")
+//         $(li.Sub > a).addClass("Hover-li-In-Bar")
+//     })
+// })
+
+// $(window).resize(function() {
+//     var width = $(window).width();
+
+//     if (width <= 600)
+//         $("body").removeClass("wow");
+// });

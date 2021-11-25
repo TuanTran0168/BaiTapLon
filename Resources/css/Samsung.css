@@ -556,18 +556,14 @@ div.Note {
 
 div.Sub-Table {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
 }
 
 div.Sub-Item {
-    width: 25%;
+    width: 24%;
     text-align: center;
     padding: 10px;
-}
-
-div.Sub-Item {
-    width: 100%;
 }
 
 div.Sub-Item img {
@@ -598,7 +594,7 @@ div.Sub-Item>p {
 
 div.Sub-Table1 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
 }
 
@@ -778,6 +774,7 @@ div.Image-Item>img:hover {
 div.Flex-Wrapper {
     background-color: white;
     height: 550px;
+    background-image: url(Background-Images/index/CSS-Background-Image-BuyStrip.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -842,7 +839,7 @@ footer {
     background-color: #044262;
     width: 100%;
     height: 650px;
-    background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLVXgSxa8ODfg0lIc3WVn6irwXOUqz_GVWl7TeFq3FMrlIheo5K_GEHfvma2QKmOFyAUDX0NqO4PFA75O_mTelwz8UqFkpJcuuR0eLwjPLrWwLCs9p9zj4iPqvgQxax6MsVfRxgNdr75ruQ-KbgskpeC=w1470-h407-no?authuser=3");
+    background-image: url("Background-Images/index/CSS-Background-Image-Footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -1162,6 +1159,7 @@ div#top i {
 /*===================================RESPONSIVE==============================================*/
 
 @media only screen and (max-width:600px) {
+    /*==========================HEADBAR===================*/
     div.Bar__Inner-Logo {
         width: 100%
     }
@@ -1179,6 +1177,116 @@ div#top i {
         width: 200px;
         height: auto;
         right: 25%;
+    }
+    /*==================CAROUSEL========================*/
+    div.carousel-item img {
+        height: 250px;
+    }
+    div.Show-Content-Text h1 {
+        font-size: 20px;
+    }
+    div.Show-Content-Text h5 {
+        font-size: 13px;
+    }
+    div.Show-Content-Text>h5 {
+        margin-bottom: 10%;
+    }
+    div.Show-Content-Text>a {
+        padding: 15px 20px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+    }
+    .Galaxy {
+        text-align: right !important;
+        color: white;
+        position: absolute;
+        right: 8%;
+    }
+    div.A>h5 {
+        margin-bottom: 20% !important;
+    }
+    div.S>h5 {
+        margin-bottom: 12% !important;
+    }
+    a.Note {
+        right: 5%;
+    }
+    div.Note {
+        color: white !important;
+        right: 14%;
+    }
+    div.carousel-item {
+        position: relative;
+        text-align: left;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    div.Galaxy {
+        text-align: left;
+        color: black;
+        position: absolute;
+        left: 46%;
+        top: 30%;
+    }
+    div.Note {
+        text-align: left;
+        color: black;
+        position: absolute;
+        left: 40%;
+        top: 30%;
+    }
+    div.A {
+        text-align: left;
+        color: black;
+        position: absolute;
+        right: 50%;
+        top: 30%;
+    }
+    div.S {
+        text-align: left;
+        color: black;
+        position: absolute;
+        right: 55%;
+        top: 30%;
+    }
+    /*===================SHOW_CONTENT1===================*/
+    div.Sub-Item {
+        width: 48%;
+    }
+    div.Sub-Item img {
+        width: 99%;
+    }
+    div.Show-Content-Text1 h3 {
+        padding: 5%;
+        margin: 0 !important;
+        font-size: 30px;
+    }
+    div.Sub-Item>p {
+        font-size: 20px;
+    }
+    /*==================SHOW_CONTENT2====================*/
+    div.Sub-Item1 {
+        width: 99%;
+    }
+    div.Show-Content-Text2>h3 {
+        padding: 5%;
+        font-size: 35px;
+    }
+    /*==================CATEGORY=========================*/
+    div.Item-Compare {
+        width: 48%;
+    }
+    div.Compare-Items {
+        width: 100%;
+        height: 5000px;
+    }
+    div.Compare-Items h2 {
+        padding: 5%;
+        font-size: 30px;
+    }
+    div.Name-Item p {
+        font-size: 15px;
     }
     /*==================BUYTRIP==========================*/
     div.Flex-Wrapper {

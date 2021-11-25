@@ -1332,6 +1332,10 @@ div#top i {
     div.Product-Infor p {
         display: none;
     }
+    div.Product-Block>a:hover div.Product-Image.One img {
+        margin: 0;
+        transform: scale(1.05);
+    }
     /*==================================PRODUCT WRAP SECOND===================================*/
     div.Product-Wrap-Second__Inner {
         margin-top: 15%;
@@ -1340,30 +1344,38 @@ div#top i {
     div.Product-Block-Second {
         width: 45%;
     }
-    div .Product-Image-Second.One {
+    div.Product-Image-Second.One {
         padding: 10%;
     }
-    div .Product-Image-Second.One img {
+    div.Product-Image-Second.One img {
         width: 100%;
         margin: 0;
     }
-    div .Product-Infor.Product-Infor-Second>a {
+    div.Product-Infor.Product-Infor-Second>a {
         font-size: 20px;
     }
-    div .Product-Infor.Product-Infor-Second>div.Product-Link {
+    div.Product-Infor.Product-Infor-Second>div.Product-Link {
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: baseline;
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    div .Product-Infor.Product-Infor-Second>div.Product-Link>a {
+    div.Product-Infor.Product-Infor-Second>div.Product-Link>a {
         font-size: 14px;
-        background-color: white;
+        background-color: rgb(252, 249, 249);
         color: black;
-        text-decoration: underline rgb(82, 18, 18) solid;
+        /* text-decoration: underline rgb(82, 18, 18) solid; */
+    }
+    div.Product-Infor.Product-Infor-Second>div.Product-Link>a:hover {
+        transform: scale(1);
+        box-shadow: none;
     }
     div.Flex-Wrapper {
         margin-top: 0;
+    }
+    div.Product-Image-Second.One img:hover {
+        transform: scale(1.05);
+        margin: 0;
     }
     /*=============================HEADER BAR================================*/
     div.Bar__Inner-Logo {

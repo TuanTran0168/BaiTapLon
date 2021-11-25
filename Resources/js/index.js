@@ -22,7 +22,31 @@ $(document).ready(function() {
 // });
 
 $(document).ready(function() {
-    $(".Bar__Inner  a").click(function() {
+    // $(".Bar__Inner  a").click(function() {
+    //     event.preventDefault()
+    // })
+
+    $(".Bar__Inner-List1-Left  a").click(function() {
+        event.preventDefault()
+    })
+
+    $(".Bar__Inner-List1-Right  a").click(function() {
+        event.preventDefault()
+    })
+
+    $(".Bar__Inner-List1-Icon  a").click(function() {
+        event.preventDefault()
+    })
+
+    $(".Footer-Top-Right  a").click(function() {
+        event.preventDefault()
+    })
+
+    $(".Footer-Top-Right  a").click(function() {
+        event.preventDefault()
+    })
+
+    $(".Footer-Content  a").click(function() {
         event.preventDefault()
     })
 
@@ -57,9 +81,9 @@ $(document).ready(function() {
         event.preventDefault()
     })
 
-    $("div.Footer__Inner a").click(function() {
-        event.preventDefault()
-    })
+    // $("div.Footer__Inner a").click(function() {
+    //     event.preventDefault()
+    // })
 
 })
 
@@ -229,6 +253,15 @@ $(document).ready(function() {
 
     })
 })
+
+function Register(obj) {
+    // alert("Đăng ký thành công!");
+    var name = document.getElementById("ResName").value;
+    if (name !== "")
+        alert("Đăng ký thành công!" + " Chào mừng " + name + " đã đến với chúng tôi");
+    else
+        alert("Bạn hãy nhập mail");
+}
 
 // $(document).ready(function() {
 //     $("li.Sub > a").hover(function() {

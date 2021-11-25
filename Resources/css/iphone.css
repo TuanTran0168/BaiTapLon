@@ -1291,6 +1291,9 @@ div#top i {
     div.Magsafe-Item>h5 {
         margin-top: 15%;
     }
+    div.Item-Compare>div.Image-Item>img:hover {
+        transform: scale(0.85);
+    }
     /*===================================ADVERTISEMENT APPLE====================================*/
     div.Advertisement-Apple {
         background-image: url("Background-Images/Responsive-Mobile/CSS-Background-Image-AppleStoreWhy-Resonsive_Mobile.png");

@@ -501,6 +501,7 @@ div.Introduction_Content {
     text-align: left;
     margin-top: 2%;
     margin-bottom: 2%;
+    overflow: hidden;
 }
 
 div>div.Introduction_Text {
@@ -553,6 +554,20 @@ div.Intro__Inner {
 
 div.carousel-item img {
     border-radius: 30px;
+}
+
+div.carousel-caption {
+    width: 20%;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    left: 10% !important;
+    top: 30%;
+}
+
+div.carousel-caption h3 {
+    font-size: 45px;
 }
 
 
@@ -1156,6 +1171,109 @@ div#top i {
 /*===================================RESPONSIVE==============================================*/
 
 @media only screen and (max-width:600px) {
+    /*====================HEADBAR=================*/
+    div.Bar__Inner-Logo {
+        width: 100%
+    }
+    div.Bar__Inner-List1-Left {
+        display: none;
+    }
+    div.Bar__Inner-List1-Right {
+        display: none;
+    }
+    div.Bar__Inner-List1-Icon {
+        width: 100%;
+        margin-left: 15%;
+    }
+    div.Bar__Inner-List1-Icon div.Menu-Icon {
+        width: 200px;
+        height: auto;
+        right: 25%;
+    }
+    div.carousel-item img {
+        /* transform: scale(2); */
+        width: 200% !important;
+        margin-left: -78%;
+    }
+    div.Introduction_Content>img {
+        transform: scale(1.8);
+        height: 110px !important;
+    }
+    div.Intro {
+        margin-top: 15% !important;
+    }
+    /*===================INTRO-CONTENT====================*/
+    div.Introduction_Content {
+        position: relative;
+        text-align: left;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    div>div.Introduction_Text {
+        text-align: center;
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 0.5%;
+    }
+    div.Introduction_Content h1 {
+        font-size: 17px;
+        margin-bottom: 0%;
+    }
+    div.Introduction_Content h4 {
+        display: none;
+    }
+    div.Introduction_Content h5 {
+        display: none;
+    }
+    div.Introduction_Text a {
+        transition-duration: 0.5s;
+    }
+    div.Introduction_Text>a:hover {
+        box-shadow: 2px 2px 7px 0px rgb(202, 190, 190);
+        color: black;
+        border: 1px solid black;
+        transform: scale(1.05);
+        transition: 0.4s;
+    }
+    div.Introduction_Content img {
+        width: 100%;
+    }
+    div.Introduction_Content>img {
+        height: 100px;
+        width: 600px;
+        padding: 1%;
+        margin-left: -45%;
+    }
+    div.Introduction_Text>a {
+        display: inline-block;
+        font-size: 10px;
+        text-decoration: none;
+        color: white;
+        background-color: darkviolet;
+        border-radius: 10px;
+        padding: 5% 8%;
+        margin-top: 3%;
+    }
+    div.Intro__Inner {
+        margin-top: 2%;
+    }
+    div.carousel-item img {
+        border-radius: 18px;
+    }
+    div.carousel-item>div.carousel-caption h3 {
+        display: none;
+    }
+    /*===================CATEGORY=========================*/
+    div.Category_Content {
+        height: 5200px;
+    }
+    .Category_Item {
+        width: 99%;
+    }
+    div.rate {
+        display: inline-block;
+    }
     div.Bar__Inner-Logo {
         width: 100%
     }

@@ -788,6 +788,7 @@ div.line>a {
 div.Flex-Wrapper {
     background-color: white;
     height: 550px;
+    background-image: url(Background-Images/index/CSS-Background-Image-BuyStrip.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1188,6 +1189,108 @@ div#top i {
         width: 200px;
         height: auto;
         right: 25%;
+    }
+    /*==================CAROUSEL========================*/
+    div.carousel-item img {
+        height: 180px;
+    }
+    div.Show-Content-Text h2 {
+        font-size: 18px;
+    }
+    div.Show-Content-Text h3 {
+        font-size: 13px;
+        margin-bottom: 1%;
+    }
+    div.Show-Content-Text h5 {
+        display: none;
+    }
+    div.Show-Content-Text a {
+        padding: 0%;
+    }
+    /*==================CONTENT2========================*/
+    div.Show-Content2 {
+        height: 600px !important;
+    }
+    div.Sub-Content {
+        margin-top: 20%;
+    }
+    div.Sub-Content h2 div.Show-Content2 {
+        height: 400px;
+    }
+    div.Sub-Content {
+        width: 50%;
+        /* background-color: #044262; */
+    }
+    div.Show-Content2 div>h3 {
+        font-size: 33px;
+    }
+    div.Show-Content2 div.Sub-Content img {
+        transform: scale(1);
+    }
+    div.Show-Content2 div.Sub-Content:first-child {
+        display: none;
+    }
+    div.Show-Content2 div.Sub-Content:last-child {
+        display: none;
+    }
+    div.Compare-Items>h2 {
+        padding: 10% 3%;
+        font-size: 28px !important;
+    }
+    div.Redmi {
+        display: none;
+    }
+    div.Sub-Content h3 {
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    div.Sub-Content>img {
+        width: 170%;
+        margin-left: -30%;
+    }
+    div.Sub-Content p {
+        display: none;
+    }
+    div.Sub-Content h2 {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    @keyframes aniName {
+        0% {
+            top: 0%
+        }
+        50% {
+            top: 10%;
+        }
+        100% {
+            top: 0%;
+        }
+    }
+    /*==================CATEGORY=========================*/
+    div.Compare-Items>h2 {
+        font-size: 33px;
+        background-image: linear-gradient(#1e150d, lightblue);
+        margin: 0%;
+        color: whitesmoke;
+        text-shadow: 2px 4px black;
+    }
+    div.Category_Item {
+        width: 99%;
+    }
+    div.Table {
+        background-color: lightblue;
+        height: 5500px;
+    }
+    div.line {
+        padding: 2.5%;
+    }
+    div.Category_Item {
+        margin: 0%;
+    }
+    div.Category_Item img {
+        padding: 3%;
+        margin: 0%;
     }
     /*==================BUYTRIP==========================*/
     div.Flex-Wrapper {
