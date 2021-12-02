@@ -53,10 +53,16 @@ $(document).ready(function() {
     $(".Show-Content  a").click(function() {
         event.preventDefault()
     })
+
     $(".Show-Content1  a").click(function() {
         event.preventDefault()
     })
+
     $(".Show-Content2  a").click(function() {
+        event.preventDefault()
+    })
+
+    $("div.Flex-Wrapper a").click(function() {
         event.preventDefault()
     })
 

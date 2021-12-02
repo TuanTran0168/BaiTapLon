@@ -1273,6 +1273,10 @@ div#top i {
         padding: 8%;
         font-size: 35px;
     }
+    div.Item-Compare>div {
+        height: 150px;
+        /* background-color: red; */
+    }
     /*==================CATEGORY=========================*/
     div.Item-Compare {
         width: 48%;
@@ -1291,6 +1295,7 @@ div#top i {
     /*==================BUYTRIP==========================*/
     div.Flex-Wrapper {
         height: auto;
+        margin-top: 220%;
     }
     div.Buy-Strip {
         width: 70%;

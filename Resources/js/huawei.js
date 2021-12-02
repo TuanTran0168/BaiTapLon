@@ -53,6 +53,9 @@ $(document).ready(function() {
     $(".Footer-Content  a").click(function() {
         event.preventDefault()
     })
+    $("div.Flex-Wrapper a").click(function() {
+        event.preventDefault()
+    })
 
     //Cái này sau gắn link vào là xóa đi
     // $("div#Tab3-1 a").click(function() {
