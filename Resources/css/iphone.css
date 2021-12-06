@@ -1192,6 +1192,13 @@ div#top i {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    div.Item-Compare>div {
+        height: 150px;
+        /* background-color: red; */
+    }
+    div.Color-Item>img {
+        margin-top: 70%;
+    }
     div.Item-Compare {
         width: 45%;
     }
