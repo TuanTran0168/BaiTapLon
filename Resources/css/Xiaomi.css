@@ -80,15 +80,6 @@ div.MenuActive__Inner h3>a {
     text-decoration: none;
 }
 
-
-/* .Bar__Inner li a:hover {
-    background-color: black;
-    color: white;
-    font-style: italic;
-    border-radius: 20px 20px;
-    border-spacing: 4px
-} */
-
 .Bar__Inner-Logo {
     width: 45%;
     z-index: 100;
@@ -179,16 +170,6 @@ ul.MenuActive__ListItems a {
 .MenuActive__Inner strong {
     box-shadow: 0 2px black;
 }
-
-
-/* li.Item>a {
-    box-shadow: 0 3px black;
-} */
-
-
-/* .MenuActive li a:hover {
-    box-shadow: 0 3px black;
-} */
 
 div.IMG__LOADED {
     /* background-color: aquamarine; */
@@ -300,28 +281,6 @@ div.Link a:hover {
 
 
 /*=== PHẦN DI ĐỘNG ===*/
-
-
-/* .Sub:hover li:first-child a:first-child {
-    transition: 0.3s;
-    box-shadow: 0 3px black;
-} */
-
-
-/* .Phone {
-    display: none;
-} */
-
-
-/* .Item:hover .Phone {
-    background-color: white;
-    display: block;
-} */
-
-
-/* .Item:first-child .Phone {
-    display: block;
-} */
 
 .Show-IMG {
     display: block;
@@ -442,38 +401,11 @@ div.USER1 span img {
     width: 13%;
 }
 
-
-/* div.Language-Icon {
-    width: 50%;
-    height: 100%;
-    position: relative;
-    background-color: yellow;
-}
-div.Language-Icon img {
-    position: absolute;
-    width: 15%;
-    right: 0;
-    bottom: 5%;
-} */
-
 div.Language-Icon h6 {
     position: absolute;
     right: 25%;
     bottom: 5%;
 }
-
-
-/* div.Language-Icon {
-    background-color: #044262;
-    vertical-align: middle;
-    position: absolute;
-    display: flex;
-    left: 0%;
-    bottom: 5%;
-}
-div.Language-Icon img {
-    width: 40%;
-} */
 
 
 /*=== PHẦN ICON:END ===*/

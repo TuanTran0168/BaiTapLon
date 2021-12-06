@@ -15,16 +15,7 @@ $(document).ready(function() {
     })
 })
 
-// $(window).on(".Load", function(event) {
-//     $("body").removeClass("Preloading");
-//     $(".Load").delay(1000).fadeOut("fast");
-
-// });
-
 $(document).ready(function() {
-    // $(".Bar__Inner  a").click(function() {
-    //     event.preventDefault()
-    // })
 
     $(".Bar__Inner-List1-Left  a").click(function() {
         event.preventDefault()
@@ -49,11 +40,6 @@ $(document).ready(function() {
     $(".Footer-Content  a").click(function() {
         event.preventDefault()
     })
-
-    //Cái này sau gắn link vào là xóa đi
-    // $("div#Tab3-1 a").click(function() {
-    //     event.preventDefault()
-    // })
 
     //=======================================
 
@@ -80,10 +66,6 @@ $(document).ready(function() {
     $("ul.ListNews a").click(function() {
         event.preventDefault()
     })
-
-    // $("div.Footer__Inner a").click(function() {
-    //     event.preventDefault()
-    // })
 
 })
 
@@ -262,24 +244,3 @@ function Register(obj) {
     else
         alert("Bạn hãy nhập mail");
 }
-
-// $(document).ready(function() {
-//     $("li.Sub > a").hover(function() {
-//         $("li.Sub > a").removeClass("Hover-li-In-Bar")
-//         $(this).addClass("Hover-li-In-Bar")
-//     })
-// })
-
-// $(document).ready(function() {
-//     $("ul.MenuActive__ListItems").hover(function() {
-//         $("li.Sub>a").removeClass("Hover-li-In-Bar")
-//         $(li.Sub > a).addClass("Hover-li-In-Bar")
-//     })
-// })
-
-// $(window).resize(function() {
-//     var width = $(window).width();
-
-//     if (width <= 600)
-//         $("body").removeClass("wow");
-// });
